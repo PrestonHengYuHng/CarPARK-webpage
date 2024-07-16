@@ -1,0 +1,88 @@
+﻿/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e2e2e2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28547a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+form {
+    background-color: #ffffff;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    padding-bottom: 40px; /* Increased padding at the bottom */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhanced shadow for depth */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+label, select, input[type="date"], button {
+    display: block;
+    width: calc(100% - 20px);
+    margin-top: 20px; /* Increased margin for better spacing */
+    padding: 12px; /* More padding for a better feel */
+    
+    border-radius: 4px; /* Slightly rounded borders for inputs and button */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+input {
+    display: block;
+    width: calc(100% - 20px);
+    margin-top: 20px; /* Increased margin for better spacing */
+    padding: 12px; /* More padding for a better feel */
+    border: 1px solid #ccc; /* Consistent border styling */
+    border-radius: 4px; /* Slightly rounded borders for inputs and button */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+    button {
+        background-color: #0056b3; /* A darker shade for the button */
+        color: #ffffff;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s; /* Smoother transition for hover effects */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for the button */
+    }
+
+    button:hover, button:focus {
+        background-color: #004080; /* Even darker on hover/focus */
+        transform: translateY(-2px); /* Slight raise effect on hover */
+        outline: none; /* Remove outline on focus for aesthetics */
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Changed from absolute to fixed */
+    width: 100%;
+    bottom: 0;
+}

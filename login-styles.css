@@ -1,0 +1,95 @@
+﻿/* General Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28547a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+section {
+    width: 100%;
+    padding: 50px 0;
+    background-image: url('C:/Preston/Y3S1/ProID/img1.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    width: 30%; /* Make the form narrower for better focus */
+    margin: 50px auto; /* Center the form vertically and horizontally */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+label, input, button {
+    display: block;
+    width: calc(100% - 20px); /* Full width minus padding */
+    margin-top: 15px; /* Slightly more space between elements */
+    padding: 10px;
+    border: 1px solid #ccc; /* Subtle borders */
+    border-radius: 4px; /* Rounded edges for inputs and button */
+}
+
+input, button {
+    background: #fff; /* White background for inputs and button */
+    color: #333; /* Dark text for readability */
+}
+
+button {
+    background-color: #007BFF; /* A bright, clickable color for the button */
+    color: #ffffff;
+    font-weight: bold;
+    border: none; /* No border for a clean look */
+    cursor: pointer; /* Cursor indicates action */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+    button:hover {
+        background-color: #0056b3; /* Darker shade when hovered */
+    }
+
+
+.account-signup {
+    color: #ffffff; /* Sets the text color to white */
+    text-align: center; /* Ensures it's centered under the form */
+    margin-top: 20px; /* Adds some space above the text for clarity */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Keep footer at the bottom regardless of content height */
+    width: 100%;
+    bottom: 0;
+}

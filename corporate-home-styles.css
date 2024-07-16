@@ -1,0 +1,160 @@
+﻿/* General Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28547a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.info-image {
+    width: 40%;
+    height: auto;
+    border-radius: 10%; /*rounded */
+}
+
+.info-text {
+    width: 50%;
+    text-align: center; /* Centralized text */
+    background-color: #ffffff; /* Optional: Add background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    padding: 20px;
+}
+
+    .info-text h3 {
+        font-size: 24px; /* Increased font size for the heading */
+        color: #004c8c; /* Color for the heading to match the theme */
+        margin-bottom: 16px; /* Space below the heading */
+        font-weight: 600; /* Slightly bolder */
+    }
+
+    .info-text ul {
+        list-style-type: disc; /* Change bullet style to disc */
+        padding-left: 20px; /* Indent for bullet points */
+        text-align: left; /* Align text to the left inside the bullet points */
+        margin-top: 0; /* Adjust the top margin */
+    }
+
+    .info-text li {
+        font-size: 16px; /* Font size for list items */
+        line-height: 1.6; /* Spacing between lines */
+        margin-bottom: 10px; /* Space below each list item */
+    }
+
+/* Additional CSS for Rental Rates Section Table */
+.rates-section table {
+    width: 60%; /* Reduced width from 100% to 60% */
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin: 20px auto; /* Centers the table and adds space above and below */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow around the table */
+    border-radius: 10px; /* Rounded edges for the table */
+    overflow: hidden; /* Ensures the border-radius affects the inner elements */
+}
+
+.rates-section th, .rates-section td {
+    text-align: left; /* Align text to the left */
+    padding: 12px 20px; /* Padding inside cells */
+    border-bottom: 1px solid #ddd; /* Light border for rows */
+}
+
+.rates-section th {
+    background-color: #28547a; /* Matching header background */
+    color: #ffffff; /* White text for headers */
+    font-size: 16px; /* Slightly larger font for headers */
+}
+
+.rates-section td {
+    background-color: #ffffff; /* White background for cells */
+    color: #333; /* Dark text for readability */
+    font-size: 15px; /* Standard text size */
+}
+
+.rates-section tr:last-child td {
+    border-bottom: none; /* Removes the border from the last row */
+}
+
+/* Additional CSS for Testimonials */
+.testimonials {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto; /* Centering the container */
+    max-width: 960px; /* Setting a maximum width to make the container narrower */
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%; /* Ensures that each card takes about a third of the container's width */
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect for depth */
+    text-align: left; /* Text alignment inside the card */
+}
+
+    .testimonial-card p {
+        font-style: italic;
+        color: #555;
+    }
+
+    .testimonial-card cite {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

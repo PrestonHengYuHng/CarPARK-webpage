@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futsal Court Booking</title>
+    <link rel="stylesheet" href="futsal-court-booking.css">
+</head>
+<body>
+    <div class="booking-container">
+        <div class="court-info">
+            <img src="C:\Preston\Y3S1\ProID\img1.png" alt="Futsal Court">
+            <h1>Futsal Court</h1>
+            <p>10 Tampines Street 1, Singapore 520010</p>
+        </div>
+        <div class="date-picker">
+            <h2>Pick a date:</h2>
+            <div class="month-selector">
+                <button onclick="moveMonth(-1)">&#60;</button>
+                <span id="monthLabel">July</span>
+                <button onclick="moveMonth(1)">&#62;</button>
+            </div>
+            <table id="calendar"></table>
+        </div>
+        <div class="time-slots">
+            <h2>Available time slots:</h2>
+            <button class="time-slot">2:00pm - 4:00pm</button>
+            <button class="time-slot">4:00pm - 6:00pm</button>
+        </div>
+        <button class="book-button" onclick="confirmBooking()">Book</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

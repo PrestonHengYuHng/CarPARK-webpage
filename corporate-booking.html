@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Slot</title>
+    <link rel="stylesheet" href="corporate-booking-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book a Facility Slot at CarPARK</h1>
+        <nav>
+            <ul>
+                <li><a href="corporate-home.html">Home</a></li>
+                <li><a href="corporate-booking.html">Book Slot</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="bookingForm">
+        <label for="facility">Choose a facility:</label>
+        <select id="facility" name="facility">
+            <option value="foodtruck">Food Truck</option>
+            <option value="gym">Gym Pod</option>
+            <option value="eventspace">Event Space</option>
+            <option value="garden">Gardening Area</option>
+            <option value="sports">Sports Court</option>
+        </select>
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName" required>
+
+        <label for="contactName">Contact Name:</label>
+        <input type="text" id="contactName" name="contactName" required>
+
+        <label for="contactEmail">Contact Email:</label>
+        <input type="email" id="contactEmail" name="contactEmail" required>
+
+        <label for="contactPhone">Contact Phone:</label>
+        <input type="tel" id="contactPhone" name="contactPhone" required>
+
+        <label for="eventtype">Type of Event:</label>
+        <input type="text" id="eventtype" name="eventtype" required>
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required>
+
+        <button type="submit">Book Now</button>
+    </form>
+    <footer>
+        <p>© 2024 CarPARK. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
